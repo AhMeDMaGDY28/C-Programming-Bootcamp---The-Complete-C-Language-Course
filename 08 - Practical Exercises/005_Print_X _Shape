@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function prints a diamond pattern made of asterisks.
+ *
+ * Return: Always returns 0 to indicate successful execution.
+ */
+
+int main(void)
+{
+	printf("*     *\n");
+	printf(" *   *\n");
+	printf("  * *\n");
+	printf("   *\n");
+	printf("  * *\n");
+	printf(" *   *\n");
+	printf("*     *\n");
+	return (0);
+}

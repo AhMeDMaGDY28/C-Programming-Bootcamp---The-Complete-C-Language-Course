@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function prints a square pattern made of asterisks.
+ *
+ * Return: Always returns 0 to indicate successful execution.
+ */
+
+int main(void)
+{
+	printf("1*********\n12********\n123*******\n1234******\n12345*****\n");
+	return (0);
+}

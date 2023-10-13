@@ -7,8 +7,8 @@
  * Return: Always returns 0 to indicate successful execution.
  */
 
-int main()
+int main(void)
 {
-	printf("First_Name: Ahmed\n last_Name: Magdy \n");
+	printf("First_Name: Ahmed\nlast_Name: Magdy \n");
 	return (0);
 }
