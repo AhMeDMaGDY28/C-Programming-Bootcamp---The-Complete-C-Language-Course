@@ -9,6 +9,6 @@
 
 int main()
 {
-	printf("First_Name: Ahmed\n last_Name: Magdy \n");
+	printf("full_name: Ahmed Magdy\n Age: 25\n Gender: Male\n");
 	return (0);
 }
