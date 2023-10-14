@@ -23,5 +23,6 @@ int main(void)
 
 	time = distance / speed;
 	printf("the time for the travel is %.1f h \n", time);
+
 	return (0);
 }
