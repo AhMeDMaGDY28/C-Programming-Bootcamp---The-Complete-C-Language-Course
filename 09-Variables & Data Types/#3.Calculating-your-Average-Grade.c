@@ -20,7 +20,7 @@ int main(void)
 	printf("Enter the 3rd Grade\n");
 	scanf("%d", &grade_3);
 
-	float avg = (grade_1 + grade_2 + grade_3) / 3;
+	float avg = ((grade_1 + grade_2 + grade_3) / 3);
 
 	printf("The average of the grades is: %.2f\n", avg);
 	return (0);
