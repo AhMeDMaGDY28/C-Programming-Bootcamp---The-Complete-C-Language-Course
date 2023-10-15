@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function compares two numbers and prints which one is the maximum and minimum.
+ * Description: This function compares three numbers and prints which one is the maximum and minimum.
  *
  * Return: Always returns 0 to indicate successful execution.
  */
