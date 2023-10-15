@@ -22,7 +22,6 @@ int main(void)
 	printf("enter the second number : \n");
 	scanf("%d", &num2);
 
-
 	switch (operator)
 	{
 	case '+':
