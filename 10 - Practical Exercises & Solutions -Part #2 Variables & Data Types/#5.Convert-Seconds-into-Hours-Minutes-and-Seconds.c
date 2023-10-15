@@ -14,7 +14,6 @@
 int main(void)
 {
 	int input_second, hours, minutes, seconds;
-
 	int tmp_hours, tmp_minutes;
 
 	printf("input the seconds you want to convert\n");
