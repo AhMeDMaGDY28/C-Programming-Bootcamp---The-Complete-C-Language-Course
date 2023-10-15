@@ -10,21 +10,48 @@
 
 int main(void)
 {
-	float num1, num2;
+	int num1, num2, num3;
 
 	printf("enter the first number : \n");
-	scanf("%f", &num1);
+	scanf("%d", &num1);
 	printf("enter the second number : \n");
-	scanf("%f", &num2);
+	scanf("%d", &num2);
+	printf("enter the third number : \n");
+	scanf("%d", &num3);
 
-	if (num1 > num2)
+	if (num1 > num2 && num1 > num3)
 	{
-		printf("%.2f is the maximum and %.2f is the minium\n", num1, num2);
-	}
-	else
+		if (num2 > num3)
+		{
+			printf("%d is the maximum and %d is the minium\n", num1, num3);
+		}
+		else if (num3 > num2)
+		{
+			printf("%d is the maximum and %d is the minium\n", num1, num2);
+		}
+		}
+	else if (num2 >= num1 && num2 >= num3)
 	{
-		printf("%.2f is the maximum and %.2f is the minium\n", num2, num1);
+		if (num1 > num3)
+		{
+			printf("%d is the maximum and %d is the minium\n", num2, num3);
+		}
+		else if (num3 > num1)
+		{
+			printf("%d is the maximum and %d is the minium\n", num2, num1);
+		}
 	}
-
+	else if (num3 > num1 && num3 > num2)
+	{
+		if (num1 > num2)
+		{
+			printf("%d is the maximum and %d is the minium\n", num3, num2);
+		}
+		else if (num2 > num1)
+		{
+			printf("%d is the maximum and %d is the minium\n", num3, num1);
+		}
+	}
+	printf("\n");
 	return (0);
 }
