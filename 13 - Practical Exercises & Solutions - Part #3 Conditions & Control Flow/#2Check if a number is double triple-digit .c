@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function checks if two numbers are equal and prints the result.
+ * Description: This function checks if a number is double-digit, triple-digit, or neither.
  *
  * Return: Always returns 0 to indicate successful execution.
  */
