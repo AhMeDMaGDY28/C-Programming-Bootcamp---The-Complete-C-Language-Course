@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function checks if a number is double-digit, triple-digit, or neither.
+ * Description: This function determines the quadrant of a point in a Cartesian coordinate system.
  *
  * Return: Always returns 0 to indicate successful execution.
  */
