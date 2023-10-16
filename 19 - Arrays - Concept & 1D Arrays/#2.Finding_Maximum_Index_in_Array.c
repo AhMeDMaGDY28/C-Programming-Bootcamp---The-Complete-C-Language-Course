@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 0; i < 5; i++)
 	{
-		printf("index %d = Enter value :\n", i);
+		printf("index %d = Enter value :\n", i + 1);
 		scanf("%d", &number[i]);
 
 		max_digit = 0;
