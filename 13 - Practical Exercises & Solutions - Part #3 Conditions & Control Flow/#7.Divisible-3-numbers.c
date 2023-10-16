@@ -3,9 +3,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function converts and prints
- * the time in hours, minutes, and seconds based on the user-provided value
- * in seconds.
+ * Description: This function checks if all three
+ * numbers are divisible by each other.
  *
  * Return: Always returns 0 to indicate successful execution.
  */
