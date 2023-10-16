@@ -64,6 +64,7 @@ int main(void)
 	{
 		printf("%d ", seconds);
 	}
+	/*     printf("%02d:%02d:%02d\n", hours, minutes, seconds); this is an easy way*/
 	printf("\n");
 	return (0);
 }
