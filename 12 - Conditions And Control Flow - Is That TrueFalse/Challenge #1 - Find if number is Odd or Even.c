@@ -20,7 +20,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is an even", X);
+		printf("%d is an odd", X);
 	}
 
 	return (0);
