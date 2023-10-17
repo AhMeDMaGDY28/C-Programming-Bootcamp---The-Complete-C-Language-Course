@@ -3,17 +3,19 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function computes the average of a series of grades
- * provided by the user. The user can input grades one by one, and the program
- * will keep calculating the sum of grades and the average until the user
- * enters -1 to stop input.
+ * Description: This function prompts the
+ * user to input a grade and ensures that
+ * the provided grade is within the valid
+ *  range (0-100). The program will keep
+ * asking for a grade until a valid grade
+ *  is entered. Once a valid grade is provided,
+ * the program displays a message confirming the valid grade.
  *
  * Return: Always returns 0 to indicate successful execution.
  *
  * Author: Ahmed Magdy
  * School: ALX CO1 BLENDED
  */
-
 int main(void)
 {
 	int grade = -1;
