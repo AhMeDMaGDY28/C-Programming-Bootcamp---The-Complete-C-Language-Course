@@ -3,10 +3,13 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function demonstrates a loop that repeatedly prints
- * an apology message for not listening to a teacher. The loop continues until
- * it reaches a count of 1000, at which point it terminates. The program
- * then displays a newline character to separate the output.
+ * Description: This function prompts the user to enter a positive integer 'n.'
+ * It then demonstrates a nested loop to print a pattern of numbers in the
+ * form of a right-angled triangle. The outer loop iterates from 1 to 'n,' and
+ * for each value of 'i,' the inner loop
+ * iterates from 1 to 'i' to print numbers.
+ * After completing the pattern, the program displays a newline character
+ * to separate the output.
  *
  * Return: Always returns 0 to indicate successful execution.
  *
