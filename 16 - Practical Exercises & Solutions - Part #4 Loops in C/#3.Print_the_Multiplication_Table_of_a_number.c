@@ -15,17 +15,16 @@
  */
 int main(void)
 {
-	int num, sum, i;
+	int num, i;
 
-	sum = 0;
 	printf("enter the number :\n");
 	scanf("%d", &num);
 
-	for (i = 1; i <= num; i++)
+	for (i = 1; i <= 12; i++)
 	{
-		sum = sum + i;
+		printf("the multiplication of %d * %d = %d\n", num, i, num * i);
 	}
-	printf("%d", sum);
+
 	printf("\n");
 	return (0);
 }
