@@ -3,15 +3,16 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function prompts the user to enter a positive integer 'n.'
- * It then demonstrates a nested loop to print a pattern of numbers in the form
- * of a right-angled triangle. The outer loop iterates from 1 to 'n,' and for
- * each value of 'i,' the inner loop iterates from 1 to 'n' (not 'i' as in the
- * original code) and prints the value of 'i' at each position. The result is a
- * right-angled triangle where each row contains the same number 'i.'
- * After completing the pattern, the program displays a newline character to
- * separate the output.
+ * Description: This function prompts the user to make a choice by entering
+ * either '1' to receive 1 million
+ * dollars or '0' to receive 1 cent that doubles
+ * every day for 30 days. Based on the user's choice, the program either
+ * displays "1 million dollars" or calculates and displays the final amount
+ * of money that doubles every day for 30 days. The program then separates the
+ * output with a newline character.
+ *
  * Return: Always returns 0 to indicate successful execution.
+ *
  * Author: Ahmed Magdy
  * School: ALX CO1 BLENDED
  */
