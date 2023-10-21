@@ -18,6 +18,7 @@ void printGreetings(void)
 	printf("Hello!\n");
 	printf("Welcome to the best course (ever) in C programming language\n");
 	printf("Good Luck\n");
+	return (0);
 }
 
 /**
