@@ -35,16 +35,16 @@ void max_min(int num1,int num2)
  */
 int main()
 {
-	int num1, num2;
+	int x, y;
 
 	printf("Enter your first number: ");
-	scanf("%d", &num1);
+	scanf("%d", &x);
 	printf("\n");
 	printf("Enter your second number: ");
-	scanf("%d", &num2);
+	scanf("%d", &y);
 	printf("\n");
 
-	max_min(num1, num2); /*Call the max_min function to compare and display results*/
+	max_min(x, y); /*Call the max_min function to compare and display results*/
 	printf("\n");
 
 	return 0; /* Return 0 to indicate successful execution*/
