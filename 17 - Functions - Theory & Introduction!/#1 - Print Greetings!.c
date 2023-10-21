@@ -6,8 +6,7 @@
  * Description: This function is responsible for printing a series of greeting messages
  * to the standard output. It displays messages to welcome the user and provide some words
  * of encouragement.
- *
- * Return: This function does not return any value (void).
+ * Return: Always returns 0 to indicate successful execution.
  *
  * Author: Ahmed Magdy
  * School: ALX CO1 BLENDED
