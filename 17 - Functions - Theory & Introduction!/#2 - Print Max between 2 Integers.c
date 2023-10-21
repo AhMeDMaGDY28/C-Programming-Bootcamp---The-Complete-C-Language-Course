@@ -11,7 +11,7 @@
  * @num1: The first integer to be compared.
  * @num2: The second integer to be compared.
  */
-int max_min(num1, num2)
+void max_min(int num1,int num2)
 {
 	if (num1 > num2)
 	{
